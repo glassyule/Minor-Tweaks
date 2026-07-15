@@ -1,17 +1,1 @@
-add SonicCDu/Data/Scripts/R1/Ramp3D.txt
-add audio.hmm
-add mod.json
-add Config/S1/ssRotation/Sonic1u/Data/Scripts/Special/SpecialSetup.txt
-add Config/SCD/instaWarp/on/raw/sound/SCD_sfx.acb
-add Config/SCD/instaWarp/on/SonicCDu/Data/Scripts/Global/TimeWarp.txt
-add Config/SCD/moveset/max/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/maxCap/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/maxNoCap/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/noDD/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/noDDCap/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/noDDNoCap/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/vanilla/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/vanillaCap/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/SCD/moveset/vanillaNoCap/SonicCDu/Data/Scripts/Players/PlayerObject.txt
-add Config/vanilla/vanilla.txt
 add mod.ini

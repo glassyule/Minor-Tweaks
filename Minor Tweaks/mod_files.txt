@@ -3,7 +3,6 @@ add audio.hmm
 add mod.ini
 add mod.json
 add Config/S1/ssRotation/Sonic1u/Data/Scripts/Special/SpecialSetup.txt
-add Config/SCD/instaWarp/off/SonicCDu/Data/Scripts/Global/TimeWarp.txt
 add Config/SCD/instaWarp/on/raw/sound/SCD_sfx.acb
 add Config/SCD/instaWarp/on/SonicCDu/Data/Scripts/Global/TimeWarp.txt
 add Config/SCD/moveset/max/SonicCDu/Data/Scripts/Players/PlayerObject.txt

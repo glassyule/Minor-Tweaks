@@ -11,7 +11,16 @@
           ],
           "DisplayName": "Anniversary Moveset",
           "Type": "S1moveset",
-          "DefaultValue": ".\\Config\\S1\\moveset\\vanilla\\"
+          "DefaultValue": ".\\Config\\vanilla\\"
+        },
+		{
+          "Name": "IncludeDir7",
+          "Description": [
+            "Enables the original Special Stage Rotation from Classic Mode in Anniversary Mode."
+          ],
+          "DisplayName": "Original Special Stage Rotation",
+          "Type": "S1ssRotation",
+          "DefaultValue": ".\\Config\\vanilla\\"
         }
       ]
     },
@@ -42,9 +51,9 @@
           "Description": [
             "Enables the original sprites for NPC Amy from Classic Mode in Anniversary Mode."
           ],
-          "DisplayName": "Original NPC Amy sprites",
+          "DisplayName": "Original NPC Amy Sprites",
           "Type": "SCDnpcAmy",
-          "DefaultValue": "."
+          "DefaultValue": ".\\Config\\vanilla\\"
         },
 		{
           "Name": "SCDroll",
@@ -68,7 +77,7 @@
           ],
           "DisplayName": "Anniversary Moveset",
           "Type": "S2moveset",
-          "DefaultValue": ".\\Config\\S2\\moveset\\vanilla\\"
+          "DefaultValue": ".\\Config\\vanilla\\"
         }
       ]
     },
@@ -81,9 +90,9 @@
           "Description": [
             "Skips the Sonic Team intro video."
           ],
-          "DisplayName": "Skip Sonic Team intro",
+          "DisplayName": "Skip Sonic Team Intro",
           "Type": "skipST",
-          "DefaultValue": "."
+          "DefaultValue": ".\\Config\\vanilla\\"
         }
       ]
 	}
@@ -92,7 +101,7 @@
     "S1moveset": [
       {
         "DisplayName": "Vanilla",
-        "Value": ".\\Config\\S1\\moveset\\vanilla\\",
+        "Value": ".\\Config\\vanilla\\",
         "Description": [
           "Vanilla Anniversary Mode moveset."
         ]
@@ -164,6 +173,22 @@
 		  "-Spin Dash",
 		  "-Peel Out",
 		  "-Insta Shield"
+        ]
+      }
+    ],
+	"S1ssRotation": [
+      {
+        "DisplayName": "Vanilla/Off",
+        "Value": ".\\Config\\vanilla\\",
+        "Description": [
+          ""
+        ]
+      },
+	    {
+        "DisplayName": "On",
+        "Value": ".\\Config\\S1\\ssRotation\\",
+        "Description": [
+          ""
         ]
       }
     ],
@@ -260,7 +285,7 @@
 	"SCDnpcAmy": [
       {
         "DisplayName": "Vanilla/Off",
-        "Value": ".",
+        "Value": ".\\Config\\vanilla\\",
         "Description": [
           ""
         ]
@@ -276,7 +301,7 @@
     "S2moveset": [
       {
         "DisplayName": "Vanilla",
-        "Value": ".\\Config\\S2\\moveset\\vanilla\\",
+        "Value": ".\\Config\\vanilla\\",
         "Description": [
           "Vanilla Anniversary Mode moveset."
         ]
@@ -331,7 +356,7 @@
     "skipST": [
       {
         "DisplayName": "Vanilla/Off",
-        "Value": ".",
+        "Value": ".\\Config\\vanilla\\",
         "Description": [
           ""
         ]

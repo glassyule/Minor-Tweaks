@@ -122,6 +122,11 @@ sub ObjectDraw
 			Music.Volume -= 8
 			SetScreenFade(224, 224, 224, Object.Timer)
 			Object.Timer += 10
+			if game.playMode != BOOT_PLAYMODE_CLASSIC
+				if Object.Timer > 254
+					Object.Timer = 320
+				end if
+			end if
 		else
 			// 88 Miles per Hour unlock criteria
 			if Stage.PlayerListPos == PLAYER_SONIC_A // PLAYER_SONIC in origins

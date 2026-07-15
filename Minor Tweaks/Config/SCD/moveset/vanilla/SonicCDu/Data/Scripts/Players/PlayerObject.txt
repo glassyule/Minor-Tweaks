@@ -4208,32 +4208,12 @@ function Player_State_Ramp3D
 					TempValue1 &= CheckResult
 						
 					if TempValue1 == true
-						TempValue0 *= 60
-						TempValue0 /= 0x60000
-						TempValue0 += 20
-						Player.AnimationSpeed = TempValue0
+						CallFunction(Player_HandleWalkAnimSpeed)
 					else
-						if TempValue0 <= 0x60000
-							Player.AnimationSpeed = 80
-						else
-							if TempValue0 >= 0x80000
-								Player.AnimationSpeed = 240
-							else
-								TempValue0 >>= 12
-								TempValue0 *= 5
-								TempValue0 -= 400
-								Player.AnimationSpeed = TempValue0
-							end if
-						end if
+						CallFunction(Player_HandleRunAnimSpeed)
 					end if
 				else
-					Player.AnimationSpeed = Player.Speed
-					if Player.AnimationSpeed < 0
-						FlipSign(Player.AnimationSpeed)
-					end if
-					Player.AnimationSpeed *= 60
-					Player.AnimationSpeed /= 0x60000
-					Player.AnimationSpeed += 20
+					CallFunction(Player_HandleWalkAnimSpeed)
 				end if
 			end if
 		end if

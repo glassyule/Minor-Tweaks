@@ -149,8 +149,6 @@ sub ObjectPlayerInteraction
 					Player.Speed	 =  0
 					Player.XVelocity =  0
 					Player.YVelocity = -0xC0000
-
-					Player.AnimationSpeed = Player.WaterStream
 				end if
 			end if
 		end if

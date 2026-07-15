@@ -25,7 +25,7 @@ Code "minor tweaks audio"
 			if (SCDroll) {
 				AudioRedirection.AddSoundReplacement(RSDK.Game.SonicCD, "Global/Roll", "SFX_BE_Rolling");
 			}
-			AudioRedirection.AddSoundReplacement(RSDK.Game.SonicCD, "Global/InstaTimeWarp", "SFX_SCD_F75");
+			AudioRedirection.AddSoundReplacement(RSDK.Game.SonicCD, "Global/InstaTimeWarp", "SFX_SCD_F76");
 		}
 	}
 }
